@@ -1,0 +1,11 @@
+class List<T> {
+    elements: T[];
+
+    constructor(_elements: T[]) {
+        this.elements = _elements;
+    }
+}
+
+const me = new List<byte>([1, 2]);
+
+me.elements[0]
